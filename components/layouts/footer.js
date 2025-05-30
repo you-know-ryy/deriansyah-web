@@ -21,13 +21,13 @@ import { usePathname } from "next/navigation";
 
 const tags = [
   { title: "Programming", target: "/blog/tag/programming" },
-  { title: "Cloud", target: "/blog/tag/cloud" },
+  // { title: "Cloud", target: "/blog/tag/cloud" },
   { title: "DevOps", target: "/blog/tag/devops" },
   { title: "SysAdmin", target: "/blog/tag/sysadmin" },
   { title: "Networking", target: "/blog/tag/networking" },
   { title: "Linux", target: "/blog/tag/linux" },
   { title: "Git", target: "/blog/tag/git" },
-  { title: "Setup", target: "/blog/tag/setup" },
+  // { title: "Setup", target: "/blog/tag/setup" },
 ];
 
 const Footer = () => {
@@ -65,7 +65,7 @@ const Footer = () => {
         <div className="xl:grid xl:grid-cols-2 xl:gap-8">
           <div className="space-y-2">
             <h2 className="flex h-10 shrink-0 items-center text-xl md:text-3xl font-bold focus:outline-none dark:text-white mb-5">
-              &{">"} /dev/null
+              RyyAic
             </h2>
             <h3 className="mb-2 text-lg font-bold text-accents-300 dark:text-white/80">
               Hubungi Saya
@@ -74,12 +74,12 @@ const Footer = () => {
               href="mailto:armandwi.pangestu7@gmail.com"
               className="hover:text-primary text-accents-300 dark:text-white/80 dark:hover:text-primary"
             >
-              <span>armandwi.pangestu7@gmail.com</span>
+              <span> m.deriyansyahit@gmail.com</span>
             </a>
             <div className="flex gap-x-1">
               {/* Github */}
               <a
-                href="https://github.com/armandwipangestu"
+                href="https://github.com/you-know-ryy"
                 target="_blank"
                 className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-400 dark:border-slate-300 text-slate-400 dark:text-slate-300 hover:border-primary hover:bg-primary hover:text-white dark:hover:border-primary dark:hover:bg-primary dark:hover:text-white"
               >
@@ -90,7 +90,7 @@ const Footer = () => {
               </a>
 
               {/* GitLab */}
-              <a
+              {/* <a
                 href="https://gitlab.com/armandwipangestu"
                 target="_blank"
                 className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-400 dark:border-slate-300 text-slate-400 dark:text-slate-300 hover:border-primary hover:bg-primary hover:text-white dark:hover:border-primary dark:hover:bg-primary dark:hover:text-white"
@@ -99,11 +99,11 @@ const Footer = () => {
                 <span className="absolute mt-20 scale-0 rounded bg-primary text-white p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   GitLab
                 </span>
-              </a>
+              </a> */}
 
               {/* Youtube */}
               <a
-                href="https://www.youtube.com/channel/UCqo9Q_EpEJWGJLB2xmm_g3A"
+                href="https://youtube.com/@ryyaic?si=box9WB90u8UTFzlH"
                 target="_blank"
                 className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-400 dark:border-slate-300 text-slate-400 dark:text-slate-300 hover:border-primary hover:bg-primary hover:text-white dark:hover:border-primary dark:hover:bg-primary dark:hover:text-white"
               >
@@ -115,7 +115,7 @@ const Footer = () => {
 
               {/* Instagram */}
               <a
-                href="https://www.instagram.com/devvnnull/"
+                href="https://www.instagram.com/lixstar.26?igsh=aHlwdXZwOHpmYWtw"
                 target="_blank"
                 className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-400 dark:border-slate-300 text-slate-400 dark:text-slate-300 hover:border-primary hover:bg-primary hover:text-white dark:hover:border-primary dark:hover:bg-primary dark:hover:text-white"
               >
@@ -127,7 +127,8 @@ const Footer = () => {
 
               {/* Linkedin */}
               <a
-                href="https://www.linkedin.com/in/arman-dwi-pangestu"
+                href="https://www.linkedin.com/in/m-deri-yansyah-s-kom-13b791315
+"
                 target="_blank"
                 className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-400 dark:border-slate-300 text-slate-400 dark:text-slate-300 hover:border-primary hover:bg-primary hover:text-white dark:hover:border-primary dark:hover:bg-primary dark:hover:text-white"
               >
@@ -189,18 +190,19 @@ const Footer = () => {
         </div>
         <div className="mt-16 flex items-center justify-center border-t border-dark pt-8 dark:border-white/10 sm:mt-20 lg:mt-24">
           <p className="text-accents-300 dark:text-white/80 text-xs leading-5">
-            © Copyright 2023 - {new Date().getFullYear()} devnull. All rights
+            © Copyright 2023 - {new Date().getFullYear()} Deriyansyah. All rights
             reserved.
           </p>
         </div>
         <p className="text-center text-xs font-medium text-accents-300 dark:text-white/80 mt-2">
-          Dibuat dengan <span className="text-pink-500">❤️</span> oleh{" "}
+          Dibuat oleh
+          {/* <span className="text-pink-500">❤️</span>{" "} */}
           <a
             href="https://github.com/armandwipangestu/armandwipangestu.vercel.app"
             target="_blank"
             className="font-bold text-primary hover:text-primary/80"
           >
-            Arman Dwi Pangestu
+            Deriyansyah
           </a>
           , menggunakan{" "}
           <a

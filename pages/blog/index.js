@@ -109,10 +109,11 @@ const BlogPage = ({ posts }) => {
                 <ReactTyped
                   strings={[
                     "Programming",
-                    "Cloud Computing",
+                    // "Cloud Computing",
                     "DevOps",
-                    "System Administrator",
+                    // "System Administrator",
                     "Networking",
+                    "Linux",
                   ]}
                   typeSpeed={40}
                   loop

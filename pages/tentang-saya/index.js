@@ -33,11 +33,12 @@ const AboutPage = () => {
               </h2>
 
               <p className="max-w-xl text-base font-medium text-secondary lg:text-lg">
-                Saya seorang Junior Web Developer yang bersemangat dalam hal
-                mempelajari teknologi yang dibutuhkan agar masalah dapat
-                terselesaikan, Saya berusaha memberikan pengalaman pengguna yang
-                menarik dan fungsional.
-                <br />
+                Saya memiliki minat besar di bidang teknologi informasi,
+                terutama dalam jaringan komputer dan pembuatan website. 
+                Memahami konsep dasar jaringan komputer serta pembuatan dan perbaikan website.  
+                Terbiasa belajar mandiri, mudah menyesuaikan diri dengan hal baru dan memiliki kemampuan kerja yang baik secara tim maupun individu. 
+                Siap mengambil peran dalam berbagai kegiatan di bidang IT.
+                {/* <br />
                 <br />
                 Sebagai seorang Network Technician, Saya berusaha menjaga
                 konektivitas yang andal dan efisien. Saya senang menganalisis
@@ -48,7 +49,7 @@ const AboutPage = () => {
                 Dalam peran System Administrator, Saya menyatukan pengetahuan
                 tentang jaringan dan programming dengan kecakapan teknis dalam
                 merancang dan mengelola infrastruktur yang handal. Saya
-                berdedikasi untuk menjaga operasi yang lancar dan efisien.
+                berdedikasi untuk menjaga operasi yang lancar dan efisien. */}
               </p>
             </div>
 
@@ -76,7 +77,7 @@ const AboutPage = () => {
               <div className="flex items-center">
                 {/* Github */}
                 <a
-                  href="https://github.com/armandwipangestu"
+                  href="https://github.com/you-know-ryy"
                   target="_blank"
                   className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
@@ -87,7 +88,7 @@ const AboutPage = () => {
                 </a>
 
                 {/* GitLab */}
-                <a
+                {/* <a
                   href="https://gitlab.com/armandwipangestu"
                   target="_blank"
                   className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
@@ -96,11 +97,11 @@ const AboutPage = () => {
                   <span className="absolute mt-20 scale-0 rounded bg-primary text-white p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                     GitLab
                   </span>
-                </a>
+                </a> */}
 
                 {/* Youtube */}
                 <a
-                  href="https://www.youtube.com/channel/UCqo9Q_EpEJWGJLB2xmm_g3A"
+                  href="https://youtube.com/@ryyaic?si=box9WB90u8UTFzlH"
                   target="_blank"
                   className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
@@ -112,7 +113,7 @@ const AboutPage = () => {
 
                 {/* Instagram */}
                 <a
-                  href="https://www.instagram.com/devvnnull/"
+                  href="https://www.instagram.com/lixstar.26?igsh=aHlwdXZwOHpmYWtw"
                   target="_blank"
                   className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
@@ -124,7 +125,7 @@ const AboutPage = () => {
 
                 {/* Linkedin */}
                 <a
-                  href="https://www.linkedin.com/in/arman-dwi-pangestu"
+                  href="https://www.linkedin.com/in/m-deri-yansyah-s-kom-13b791315"
                   target="_blank"
                   className="group mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >

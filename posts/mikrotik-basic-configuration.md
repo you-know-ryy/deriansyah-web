@@ -2,12 +2,12 @@
 published: true
 title: "Mikrotik - Basic Configuration"
 tag: "Networking"
-date: "January 17 2023"
+date: "Mey 27 2025"
 excerpt: "Pada artikel ini kita akan mencoba basic configuration pada Router Mikrotik"
 cover_image: "/images/posts/Mikrotik - Basic Configuration.png"
-author_name: "Arman Dwi Pangestu"
+author_name: "Deri Yansyah"
 author_title: "Web Developer"
-author_image: "/images/posts/author/arman.png"
+author_image: "/images/posts/author/ryy2.png"
 ---
 
 ## Router Identity

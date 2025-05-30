@@ -2,12 +2,12 @@
 published: false
 title: "Ubuntu - Instalasi dan Konfigurasi LEMP Stack"
 tag: "Linux"
-date: "August 30 2023"
+date: "May 27 2025 "
 excerpt: "Pada artikel ini saya akan melakukan instalasi dan konfigurasi LEMP atau Linux, Nginx, MariaDB, dan PHP pada sistem operasi Ubuntu Server 22.04"
 cover_image: "/images/posts/Ubuntu - Instalasi dan Konfigurasi LEMP Stack.png"
-author_name: "Arman Dwi Pangestu"
+author_name: "Deri Yansyah"
 author_title: "Web Developer"
-author_image: "/images/posts/author/arman.png"
+author_image: "/images/posts/author/ryy2.png"
 ---
 
 ## Pendahuluan

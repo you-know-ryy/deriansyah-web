@@ -207,7 +207,7 @@ const SkillsPage = () => {
               </a>
 
               {/* TypeScript */}
-              <a
+              {/* <a
                 href="https://www.typescriptlang.org"
                 target="_blank"
                 className="group mx-4 max-w-[60px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -216,7 +216,7 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.9rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   TypeScript
                 </span>
-              </a>
+              </a> */}
 
               {/* ReactJS */}
               <a
@@ -243,16 +243,16 @@ const SkillsPage = () => {
               </a>
 
               {/* Express JS */}
-              <a
+              {/* <a
                 href="https://expressjs.com/"
                 target="_blank"
                 className="group mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
               >
                 <SiExpress className="w-16 h-16" />
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.7rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
-                  Express.js
+                  Gatsby
                 </span>
-              </a>
+              </a> */}
 
               {/* Next JS */}
               <a
@@ -279,7 +279,7 @@ const SkillsPage = () => {
               </a>
 
               {/* Laravel */}
-              <a
+              {/* <a
                 href="https://laravel.com/"
                 target="_blank"
                 className="group mx-4 max-w-[70px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -288,10 +288,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Laravel
                 </span>
-              </a>
+              </a> */}
 
               {/* Codeigniter */}
-              <a
+              {/* <a
                 href="https://codeigniter.com/"
                 target="_blank"
                 className="group mx-4 max-w-[70px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -300,10 +300,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.8rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   CodeIgniter
                 </span>
-              </a>
+              </a> */}
 
               {/* JWT */}
-              <a
+              {/* <a
                 href="https://jwt.io/"
                 target="_blank"
                 className="group mx-4 max-w-[80px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -312,7 +312,7 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[-0.5rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   JWT
                 </span>
-              </a>
+              </a> */}
 
               {/* MySQL */}
               <a
@@ -339,7 +339,7 @@ const SkillsPage = () => {
               </a>
 
               {/* Firebase */}
-              <a
+              {/* <a
                 href="https://firebase.google.com/"
                 target="_blank"
                 className="group mx-4 max-w-[80px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -348,10 +348,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.3rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Firebase
                 </span>
-              </a>
+              </a> */}
 
               {/* MongoDB */}
-              <a
+              {/* <a
                 href="https://www.mongodb.com/"
                 target="_blank"
                 className="group mx-4 max-w-[80px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -360,7 +360,7 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.3rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   MongoDB
                 </span>
-              </a>
+              </a> */}
 
               {/* Git */}
               <a
@@ -387,7 +387,7 @@ const SkillsPage = () => {
               </a>
 
               {/* GitHub Actions */}
-              <a
+              {/* <a
                 href="https://github.com/features/actions"
                 target="_blank"
                 className="group mx-4 max-w-[70px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -396,10 +396,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.1rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   GitHub Actions
                 </span>
-              </a>
+              </a> */}
 
               {/* Jenkins */}
-              <a
+              {/* <a
                 href="https://www.jenkins.io/"
                 target="_blank"
                 className="group mx-4 max-w-[70px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -408,7 +408,7 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.1rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Jenkins
                 </span>
-              </a>
+              </a> */}
 
               {/* GitLab */}
               <a
@@ -483,7 +483,7 @@ const SkillsPage = () => {
               </a>
 
               {/* Kubernetes */}
-              <a
+              {/* <a
                 href="https://kubernetes.io/"
                 target="_blank"
                 className="group mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -492,9 +492,9 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] right-[-1rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Kubernetes
                 </span>
-              </a>
+              </a> */}
 
-              {/* Google Cloud Platform (GCP) */}
+              {/* Google Cloud Platform (GCP)
               <a
                 href="https://cloud.google.com/"
                 target="_blank"
@@ -504,10 +504,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] right-[0.7rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   GCP
                 </span>
-              </a>
+              </a> */}
 
               {/* Terraform */}
-              <a
+              {/* <a
                 href="https://www.terraform.io/"
                 target="_blank"
                 className="group mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -516,10 +516,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] right-[-0.7rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Terraform
                 </span>
-              </a>
+              </a> */}
 
               {/* MinIO */}
-              <a
+              {/* <a
                 href="https://www.min.io"
                 target="_blank"
                 className="group mx-4 max-w-[140px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -528,10 +528,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] right-[0.4rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   MinIO
                 </span>
-              </a>
+              </a> */}
 
               {/* Ceph */}
-              <a
+              {/* <a
                 href="https://ceph.io"
                 target="_blank"
                 className="group mx-4 max-w-[140px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -540,10 +540,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] right-[0.4rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Ceph
                 </span>
-              </a>
+              </a> */}
 
               {/* Apache Hadoop */}
-              <a
+              {/* <a
                 href="https://hadoop.apache.org"
                 target="_blank"
                 className="group mx-4 max-w-[140px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -552,10 +552,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.4rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Apache Hadoop
                 </span>
-              </a>
+              </a> */}
 
               {/* Trino */}
-              <a
+              {/* <a
                 href="https://trino.io"
                 target="_blank"
                 className="group mx-4 max-w-[140px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -564,10 +564,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] right-[0.4rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Trino
                 </span>
-              </a>
+              </a> */}
 
               {/* Apache Hive */}
-              <a
+              {/* <a
                 href="https://hive.apache.org"
                 target="_blank"
                 className="group mx-4 max-w-[140px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -576,10 +576,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.4rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Apache Hive
                 </span>
-              </a>
+              </a> */}
 
               {/* Apache Parquet */}
-              <a
+              {/* <a
                 href="https://parquet.apache.org"
                 target="_blank"
                 className="group mx-4 max-w-[140px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -588,10 +588,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.4rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Apache Parquet
                 </span>
-              </a>
+              </a> */}
 
               {/* Apache NiFi */}
-              <a
+              {/* <a
                 href="https://nifi.apache.org"
                 target="_blank"
                 className="group mx-4 max-w-[140px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -600,10 +600,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.4rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Apache NiFi
                 </span>
-              </a>
+              </a> */}
 
               {/* Grafana */}
-              <a
+              {/* <a
                 href="https://grafana.com"
                 target="_blank"
                 className="group mx-4 max-w-[140px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -612,10 +612,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.4rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Grafana
                 </span>
-              </a>
+              </a> */}
 
               {/* Prometheus */}
-              <a
+              {/* <a
                 href="https://prometheus.io"
                 target="_blank"
                 className="group mx-4 max-w-[140px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -624,10 +624,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[1.2rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Prometheus
                 </span>
-              </a>
+              </a> */}
 
               {/* Thanos */}
-              <a
+              {/* <a
                 href="https://thanos.io"
                 target="_blank"
                 className="group mx-4 max-w-[140px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -636,10 +636,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.2rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Thanos
                 </span>
-              </a>
+              </a> */}
 
               {/* Proxmox */}
-              <a
+              {/* <a
                 href="https://www.proxmox.com"
                 target="_blank"
                 className="group mx-4 max-w-[140px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -648,10 +648,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.5rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Proxmox
                 </span>
-              </a>
+              </a> */}
 
               {/* VMware */}
-              <a
+              {/* <a
                 href="https://www.vmware.com"
                 target="_blank"
                 className="group mx-4 max-w-[140px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -660,10 +660,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.3rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   VMware
                 </span>
-              </a>
+              </a> */}
 
               {/* Cpanel */}
-              <a
+              {/* <a
                 href="https://cpanel.net/"
                 target="_blank"
                 className="group mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -672,10 +672,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] right-[0.3rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   cPanel
                 </span>
-              </a>
+              </a> */}
 
               {/* PowerDNS */}
-              <a
+              {/* <a
                 href="https://www.powerdns.com"
                 target="_blank"
                 className="group mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -684,7 +684,7 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.7rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   PowerDNS
                 </span>
-              </a>
+              </a> */}
 
               {/* Mikrotik */}
               <a
@@ -711,7 +711,7 @@ const SkillsPage = () => {
               </a>
 
               {/* Ruijie */}
-              <a
+              {/* <a
                 href="https://www.ruijienetworks.com"
                 target="_blank"
                 className="group mx-4 max-w-[110px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -720,10 +720,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[2rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Ruijie/ReyeeOS
                 </span>
-              </a>
+              </a> */}
 
               {/* Ubiquiti */}
-              <a
+              {/* <a
                 href="https://www.ui.com"
                 target="_blank"
                 className="group mx-4 max-w-[70px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -732,7 +732,7 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[1.6rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Unifi/Ubiquiti
                 </span>
-              </a>
+              </a> */}
 
               {/* Figma */}
               <a
@@ -747,7 +747,7 @@ const SkillsPage = () => {
               </a>
 
               {/* Postman */}
-              <a
+              {/* <a
                 href="https://www.postman.com"
                 target="_blank"
                 className="group mx-4 max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -756,10 +756,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.4rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Postman
                 </span>
-              </a>
+              </a> */}
 
               {/* Arduino Uno */}
-              <a
+              {/* <a
                 href="https://www.arduino.cc"
                 target="_blank"
                 className="group mx-4 max-w-[70px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -768,10 +768,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.3rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Arduino Uno
                 </span>
-              </a>
+              </a> */}
 
               {/* Notion */}
-              <a
+              {/* <a
                 href="https://www.notion.so/"
                 target="_blank"
                 className="group mx-4 max-w-[70px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -780,10 +780,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] right-[0.2rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Notion
                 </span>
-              </a>
+              </a> */}
 
               {/* Trello */}
-              <a
+              {/* <a
                 href="https://www.trello.com/"
                 target="_blank"
                 className="group mx-4 max-w-[70px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -792,10 +792,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] right-[0.2rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Trello
                 </span>
-              </a>
+              </a> */}
 
               {/* Google Colab */}
-              <a
+              {/* <a
                 href="https://colab.research.google.com/"
                 target="_blank"
                 className="group mx-4 max-w-[70px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -804,10 +804,10 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.1rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Google Colab
                 </span>
-              </a>
+              </a> */}
 
               {/* Jupyter Notebook */}
-              <a
+              {/* <a
                 href="https://jupyter.org/"
                 target="_blank"
                 className="group mx-4 max-w-[70px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8 ease-in-out hover:scale-110"
@@ -816,7 +816,7 @@ const SkillsPage = () => {
                 <span className="icon-skill absolute top-[5.5rem] -right-[0.1rem] scale-0 rounded bg-dark text-white dark:bg-white dark:text-dark p-2 text-xs group-hover:scale-100 whitespace-normal transition duration-300 ease-in-out font-bold">
                   Jupyter Notebook
                 </span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

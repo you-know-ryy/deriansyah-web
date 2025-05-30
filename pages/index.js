@@ -20,7 +20,7 @@ const HomePage = () => {
               <h1 className="text-base font-semibold text-primary md:text-xl">
                 Halo Semua 👋, Saya
                 <span className="mt-1 block text-3xl font-bold text-dark dark:text-white lg:text-5xl">
-                  Arman Dwi Pangestu
+                  Deri Yansyah
                 </span>
               </h1>
 
@@ -30,8 +30,6 @@ const HomePage = () => {
                   strings={[
                     "Web Developer",
                     "Network Engineer",
-                    "System Administrator",
-                    "Cloud Engineer",
                   ]}
                   typeSpeed={40}
                   loop
@@ -55,7 +53,7 @@ const HomePage = () => {
               </Link>
 
               <Link
-                href="/Curriculum Vitae.pdf"
+                href="/m.deriyansyah.cv.pdf"
                 target="_blank"
                 className="ml-2 md:ml-5 rounded-full bg-dark text-white dark:bg-white dark:text-dark px-5 py-2.5 text-base font-semibold transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg md:px-8 md:py-3"
               >
@@ -66,8 +64,8 @@ const HomePage = () => {
             <div className="w-full self-end px-4 lg:w-1/2">
               <div className="relative mt-10 lg:right-0 lg:mt-0">
                 <Image
-                  alt="Arman Dwi Pangestu"
-                  src="/me.png"
+                  alt="Deri Yansyah"
+                  src="/rey.png"
                   className="relative z-[1] mx-auto max-w-full"
                   width={417}
                   height={598}

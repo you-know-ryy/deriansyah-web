@@ -31,68 +31,112 @@ const ExperiencePage = () => {
                   <div className="flex-start flex items-center pt-3">
                     <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-primary"></div>
                     <p className="inline-flex items-center rounded-full border border-cyan-500/40 bg-cyan-500/10 px-3 py-1 text-xs font-medium tracking-tight text-cyan-500 transition-colors hover:bg-cyan-500/20 focus:outline-none">
-                      November 2024 - Sekarang
+                      November 2023 - Sekarang
                     </p>
                   </div>
                   <div className="mb-6 ml-4 mt-2">
                     <h4 className="tex-dark mb-1.5 text-xl font-semibold dark:text-white">
-                      Sovware Data Mandiri
+                      PT.Aretanet Indonesia
                     </h4>
                     <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-                      Junior System Administrator - Full Time
+                      Penguji Eksternal Uji Kompetensi Keahlian (UKK)
                     </p>
 
                     <div className="flex-start flex items-center">
                       <div className="mr-3 h-[8px] w-[8px] rounded-full bg-dark dark:bg-white"></div>
                       <p className="text-sm text-neutral-500 dark:text-neutral-300">
-                        Mendesain arsitektur Big Data agar mendukung Scalable,
-                        High Availability, Fault Tolerant, dan Load Balancing.
+                      Bertugas sebagai penguji eksternal UKK di berbagai SMK jurusan TKJ, termasuk:
+                     SMK Islamiyah Ciputat
+                     SMK Bina Mandiri
+                      </p>
+                    </div>
+
+                    <br></br>
+                    <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                     Asisten Trainer Pra (UKK)
+                    </p>
+                    <div className="flex-start flex items-center">
+                      <div className="mr-3 h-[8px] w-[8px] rounded-full bg-dark dark:bg-white"></div>
+                      <p className="text-sm text-neutral-500 dark:text-neutral-300">
+                     Berperan aktif dalam kegiatan pelatihan pra UKK sebagai asisten trainer di:
+                     SMK Dewi Sartika,
+                     SMK Bina Mandiri,
+                     SMK Islamiyah Ciputat,
+                     SMK Binong Permai
+                      </p>
+                    </div>
+
+                    <br></br>
+                    <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                     Persiapan UKK & ERP
+                    </p>
+
+                    <div className="flex-start flex items-center">
+                      <div className="mr-3 h-[8px] w-[8px] rounded-full bg-dark dark:bg-white"></div>
+                      <p className="text-sm text-neutral-500 dark:text-neutral-300">
+                      Cek Resource dan kebutuhan yang digunakan untuk UKK di SMK Kutabumi 1 Tangerang
                       </p>
                     </div>
 
                     <div className="flex-start flex items-center">
                       <div className="mr-3 h-[8px] w-[8px] rounded-full bg-dark dark:bg-white"></div>
                       <p className="text-sm text-neutral-500 dark:text-neutral-300">
-                        Melakukan deployment Big Data teknologi di server
-                        On-Premise yang berjalan di atas Hypervisor Proxmox
-                        menggunakan MinIO, Ceph, Dremio, Trino, Apache Hue,
-                        Zookeeper, Nessie, MariaDB, Galera Cluster, HAProxy,
-                        Keepalived, Apache NiFi, Nginx, beserta monitoring
-                        system menggunakan Prometheus, Grafana, Thanos, Loki,
-                        dan Alloy.
+                      Cek Resource dan kebutuhan yang digunakan untuk penerapan  ERP pada perusahaan CKDU
                       </p>
                     </div>
 
                     <div className="flex-start flex items-center">
                       <div className="mr-3 h-[8px] w-[8px] rounded-full bg-dark dark:bg-white"></div>
                       <p className="text-sm text-neutral-500 dark:text-neutral-300">
-                        Membuat CI/CD Pipeline untuk kebutuhan automation
-                        deployment di GitLab menggunakan GitLab Runner dengan
-                        output containerized dan disimpan di GitLab Registry.
+                      Input Data perusahaan CKDU yang akan digunakan pada ERP
                       </p>
                     </div>
+
+                    <br></br>
+                    <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                    Web Content Administrator
+                    </p>
+
 
                     <div className="flex-start flex items-center">
                       <div className="mr-3 h-[8px] w-[8px] rounded-full bg-dark dark:bg-white"></div>
                       <p className="text-sm text-neutral-500 dark:text-neutral-300">
-                        Membuat Single Sign On (SSO) service menggunakan
-                        Keycloak untuk kebutuhan Authentication yang mendukung
-                        OIDC (OpenID Connect) yang berjalan di atas framework
-                        OAuth 2.
+                      Memperbarui konten situs web secara rutin, termasuk artikel, gambar, dan produk.
                       </p>
                     </div>
+
 
                     <div className="flex-start flex items-center">
                       <div className="mr-3 h-[8px] w-[8px] rounded-full bg-dark dark:bg-white"></div>
                       <p className="text-sm text-neutral-500 dark:text-neutral-300">
-                        Menyiapkan VPN Server menggunakan L2TP, IPsec, dan
-                        OpenVPN untuk kebutuhan koneksi server.
+                      Menjaga konsistensi dan kualitas informasi pada situs perusahaan.
+                      </p>
+                    </div>
+
+
+                    <br></br>
+                    <p className="mb-3 text-neutral-500 dark:text-neutral-300">
+                    Teknis IT Support
+                    </p>
+
+
+                    <div className="flex-start flex items-center">
+                      <div className="mr-3 h-[8px] w-[8px] rounded-full bg-dark dark:bg-white"></div>
+                      <p className="text-sm text-neutral-500 dark:text-neutral-300">
+                      Melakukan instalasi sistem operasi: Ubuntu, Windows, dan Zorin OS untuk perangkat lab dan kantor.
+                      </p>
+                    </div>
+ 
+                    <div className="flex-start flex items-center">
+                      <div className="mr-3 h-[8px] w-[8px] rounded-full bg-dark dark:bg-white"></div>
+                      <p className="text-sm text-neutral-500 dark:text-neutral-300">
+                      Melakukan pembongkaran dan perakitan kembali perangkat jaringan Cisco untuk kebutuhan praktikum dan pelatihan jaringan.
                       </p>
                     </div>
                   </div>
                 </li>
 
-                <li>
+                {/* <li>
                   <div className="flex-start flex items-center pt-3">
                     <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-primary"></div>
                     <p className="inline-flex items-center rounded-full border border-cyan-500/40 bg-cyan-500/10 px-3 py-1 text-xs font-medium tracking-tight text-cyan-500 transition-colors hover:bg-cyan-500/20 focus:outline-none">
@@ -194,10 +238,10 @@ const ExperiencePage = () => {
                       </p>
                     </div>
                   </div>
-                </li>
+                </li> */}
 
                 {/* Thrid Item */}
-                <li>
+                {/* <li>
                   <div className="flex-start flex items-center pt-3">
                     <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-primary"></div>
                     <p className="inline-flex items-center rounded-full border border-cyan-500/40 bg-cyan-500/10 px-3 py-1 text-xs font-medium tracking-tight text-cyan-500 transition-colors hover:bg-cyan-500/20 focus:outline-none">
@@ -252,7 +296,7 @@ const ExperiencePage = () => {
                       </p>
                     </div>
                   </div>
-                </li>
+                </li> */}
               </ol>
             </div>
           </div>

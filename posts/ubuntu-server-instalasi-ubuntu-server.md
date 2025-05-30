@@ -2,12 +2,12 @@
 published: true
 title: "Ubuntu Server - Instalasi Ubuntu Server 22.04"
 tag: "Linux"
-date: "June 21 2023"
+date: "Mey 27 2025"
 excerpt: "Pada artikel ini kita akan melakukan instalasi pada sistem operasi ubuntu server 22.04"
 cover_image: "/images/posts/default.png"
-author_name: "Arman Dwi Pangestu"
+author_name: "Deri Yansyah"
 author_title: "Web Developer"
-author_image: "/images/posts/author/arman.png"
+author_image: "/images/posts/author/ryy2.png"
 ---
 
 ## Memilih Bahasa
