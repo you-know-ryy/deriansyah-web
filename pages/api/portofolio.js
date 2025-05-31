@@ -1,19 +1,43 @@
-// // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-// import Cors from "cors";
+import Cors from "cors";
 
-// const cors = Cors({
-//   methods: ["GET"],
-// });
+const cors = Cors({
+  methods: ["GET"],
+});
 
-// export default async function handler(req, res) {
-//   cors(req, res, async () => {
-//     res.status(200).json({
-//       data,
-//     });
-//   });
-// }
+export default async function handler(req, res) {
+  cors(req, res, async () => {
+    res.status(200).json({
+      data,
+    });
+  });
+}
 
+const data = [
+    {
+      link: "https://alamtani.my.id/",
+      thumbnail: "/portofolio/alamtani.png", // kamu bisa ganti sesuai file gambarmu
+      alt: "Alamtani",
+      title: "Alamtani",
+      excerpt: "Platform web untuk pencarian blog dan artikel pertanian. Dibuat dengan Gatsby.js.", 
+    },
+    {
+      link: "https://banten-news.vercel.app/",
+      thumbnail: "/portofolio/banten-news.png",
+      alt: "Banten News",
+      title: "Banten News",
+      excerpt: "Website berita ringan dan cepat untuk info Banten. Dibuat dengan Vercel.",
+    },
+    {
+      link: "https://cvryy.my.id/",
+      thumbnail: "/portofolio/cv-portfolio.png",
+      alt: "CV Portfolio",
+      title: "CV Portfolio",
+      excerpt: "Web portfolio pribadi & blog menggunakan Next.js, Tailwind, dan Markdown.",
+    },
+  ];
+  
 // const data = [
 //   {
 //     link: "https://github.com/armandwipangestu/magabwa",
@@ -59,49 +83,48 @@
 //     excerpt: "Web Portofolio dibuat menggunakan NextJS dan Tailwind CSS",
 //     techs: ["NextJS", "ReactJS", "TailwindCSS", "Markdown"],
 //   },
-//   // {
-//   //   link: "https://github.com/armandwipangestu/beasiswa",
-//   //   thubmnail: "/portofolio/beasiswa.png",
-//   //   alt: "CodeIgniter 3 - Beasiswa",
-//   //   title: "CodeIgniter 3 - Beasiswa",
-//   //   excerpt:
-//   //     "Aplikasi pencatatan pengajuan penerima beasiswa, proyek ini merupakan tugas dari mata kuliah Mini Project 2.",
-//   //   techs: ["CodeIgniter 3", "Bootstrap", "Stisla", "MySQL"],
-//   // },
-//   // {
-//   //   link: "https://github.com/armandwipangestu/vba-toko-alat-olahraga",
-//   //   thubmnail: "/portofolio/vba-toko_alat_olahraga.png",
-//   //   alt: "VBA - Toko Alat Olahraga",
-//   //   title: "VBA - Toko Alat Olahraga",
-//   //   excerpt:
-//   //     "Aplikasi toko alat olahraga yang memiliki fitur CRUD pada Excel, proyek ini merupakan tugas dari mata kuliah Mini Project 1.",
-//   //   techs: ["Visual Basic Application", "Excel"],
-//   // },
-//   // {
-//   //   link: "https://github.com/armandwipangestu/openai-project",
-//   //   thubmnail: "/portofolio/openai-project.png",
-//   //   alt: "ReactJS - OpenAI Project",
-//   //   title: "ReactJS - OpenAI Project",
-//   //   excerpt:
-//   //     "Simpel Web App untuk berinteraksi dengan ChatGPT dan Dall·E 2 menggunakan OpenAI API, dibuat menggunakan ReactJS dan Axios untuk request API.",
-//   //   techs: ["ReactJS", "TailwindCSS", "Axios"],
-//   // },
-//   // {
-//   //   link: "https://github.com/Awesomesh0t/awesomeshot",
-//   //   thubmnail: "/portofolio/awesomeshot2.png",
-//   //   alt: "BASH - Awesomeshot",
-//   //   title: "BASH - Awesomeshot",
-//   //   excerpt:
-//   //     "Command Line Tools untuk memodifikasi gambar atau screenshot menggunakan BASH dan ImageMagick.",
-//   //   techs: ["BASH", "ImageMagick"],
-//   // },
-//   // {
-//   //   link: "https://github.com/armandwipangestu/blog",
-//   //   thubmnail: "/portofolio/blog-php-native.png",
-//   //   alt: "PHP - Blog",
-//   //   title: "PHP - Blog",
-//   //   excerpt:
-//   //     "Blog sederhana dibuat menggunakan php native dan content menggunakan markdown. Dibuat ketika pertama kali mempelajari bahasa pemrograman PHP",
-//   //   techs: ["PHP", "Bootstrap", "Markdown", "MySQL"],
-//   // },
-// ];
+  // {
+  //   link: "https://github.com/armandwipangestu/beasiswa",
+  //   thubmnail: "/portofolio/beasiswa.png",
+  //   alt: "CodeIgniter 3 - Beasiswa",
+  //   title: "CodeIgniter 3 - Beasiswa",
+  //   excerpt:
+  //     "Aplikasi pencatatan pengajuan penerima beasiswa, proyek ini merupakan tugas dari mata kuliah Mini Project 2.",
+  //   techs: ["CodeIgniter 3", "Bootstrap", "Stisla", "MySQL"],
+  // },
+  // {
+  //   link: "https://github.com/armandwipangestu/vba-toko-alat-olahraga",
+  //   thubmnail: "/portofolio/vba-toko_alat_olahraga.png",
+  //   alt: "VBA - Toko Alat Olahraga",
+  //   title: "VBA - Toko Alat Olahraga",
+  //   excerpt:
+  //     "Aplikasi toko alat olahraga yang memiliki fitur CRUD pada Excel, proyek ini merupakan tugas dari mata kuliah Mini Project 1.",
+  //   techs: ["Visual Basic Application", "Excel"],
+  // },
+  // {
+  //   link: "https://github.com/armandwipangestu/openai-project",
+  //   thubmnail: "/portofolio/openai-project.png",
+  //   alt: "ReactJS - OpenAI Project",
+  //   title: "ReactJS - OpenAI Project",
+  //   excerpt:
+  //     "Simpel Web App untuk berinteraksi dengan ChatGPT dan Dall·E 2 menggunakan OpenAI API, dibuat menggunakan ReactJS dan Axios untuk request API.",
+  //   techs: ["ReactJS", "TailwindCSS", "Axios"],
+  // },
+  // {
+  //   link: "https://github.com/Awesomesh0t/awesomeshot",
+  //   thubmnail: "/portofolio/awesomeshot2.png",
+  //   alt: "BASH - Awesomeshot",
+  //   title: "BASH - Awesomeshot",
+  //   excerpt:
+  //     "Command Line Tools untuk memodifikasi gambar atau screenshot menggunakan BASH dan ImageMagick.",
+  //   techs: ["BASH", "ImageMagick"],
+  // },
+  // {
+  //   link: "https://github.com/armandwipangestu/blog",
+  //   thubmnail: "/portofolio/blog-php-native.png",
+  //   alt: "PHP - Blog",
+  //   title: "PHP - Blog",
+  //   excerpt:
+  //     "Blog sederhana dibuat menggunakan php native dan content menggunakan markdown. Dibuat ketika pertama kali mempelajari bahasa pemrograman PHP",
+  //   techs: ["PHP", "Bootstrap", "Markdown", "MySQL"],
+  // },
