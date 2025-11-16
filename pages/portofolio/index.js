@@ -89,7 +89,7 @@ const PortofolioPage = () => {
 												alt=""
 												height="360"
 												width="640"
-												src={porto.thubmnail}
+												src={porto.thumbnail}
 												className={`transition duration-300 ease-in-out hover:scale-110 ${
 													isHoveredIndex === index ? "scale-110" : ""
 												}`}
